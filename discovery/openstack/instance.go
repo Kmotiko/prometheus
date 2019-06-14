@@ -147,9 +147,9 @@ func (i *InstanceDiscovery) refresh() (*targetgroup.Group, error) {
 		}
 		return true, nil
 	})
-	if err != nil {
-		return nil, err
-	}
+	// if err != nil {
+	// 	return nil, err
+	// }
 
 	// OpenStack API reference
 	// https://developer.openstack.org/api-ref/compute/#list-servers
